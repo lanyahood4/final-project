@@ -1,19 +1,25 @@
 # SI 206 Final Project - SI 206 API's
 
-## Description
-This project analyzes the relationship between weather conditions and air quality in major U.S. cities using data from:
-- WeatherAPI
-- IQAir API
+## Topic
+Analyzing how weather, air quality, and earthquake events are related across U.S. cities.
+
+## APIs Used
+- WeatherAPI (avg temperature, humidity, wind)
+- IQAir API (air quality index)
+- USGS Earthquake API (location, magnitude of quakes)
 
 ## Files
-- weather_data.py — gets weather data and stores it in SQLite
-- air_quality_data.py — gets AQI data and stores it in SQLite
-- analyze_data.py — joins data, calculates averages, writes to file
-- visualize.py — creates 3 graphs: bar, scatter, and line chart
-- calculated_data.txt — contains the output results of analysis
-  
-## Run Order
-1. `python weather_data.py` (run multiple times to gather 100+ records)
-2. `python air_quality_data.py` (run multiple times)
-3. `python analyze_data.py` (writes `calculated_data.txt`)
-4. `python visualize.py` (shows and saves graphs)
+- weather_data.py – stores weather data (limit 25/run)
+- air_quality_data.py – stores AQI data (limit 25/run)
+- earthquake_data.py – fetches recent earthquakes
+- analyze_data.py – SQL JOINs, analysis, outputs calculated_data.txt
+- visualize.py – creates 3 visualizations (AQI, temp vs AQI, quake bar chart)
+
+## How to Use
+1. Add your API keys to `weather_data.py` and `air_quality_data.py`
+2. Run:
+   - `python weather_data.py` multiple times
+   - `python air_quality_data.py` multiple times
+   - `python earthquake_data.py` once
+   - `python analyze_data.py` to process and output results
+   - `python visualize.py` to create 3 graphs
