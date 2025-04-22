@@ -48,7 +48,9 @@ with open("calculated_data.txt", "w") as f:
         line = f"{r[0]} | Avg Temp: {r[1]:.2f} | Avg Humidity: {r[2]:.2f} | Avg AQI: {r[3]:.2f}\n"
         f.write(line)
     f.write("\nEarthquake Counts by Region:\n")
+    
     for region, count in quake_counts.items():
         f.write(f"{region}: {count} earthquakes\n")
+conn.close()        
     
 
