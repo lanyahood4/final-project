@@ -39,4 +39,17 @@ def fetch_weather(city):
         day_data['avghumidity'],
         day_data['maxwind_mph']
     )
+    
+cur.execute("SELECT COUNT(*) FROM Weather")
+count = cur.fetchone()[0]
 
+# Only add 25 new records per run
+if count < 100:
+    to_add = 25
+    for city in cities:
+        for _ in range(5):  # loop through to collect up to 25 items
+            if to_add == 0:
+                break
+            try:
+                weather = fetch_weather(city)
+                cur.execute('''
