@@ -53,3 +53,15 @@ if count < 100:
             try:
                 weather = fetch_weather(city)
                 cur.execute('''
+                    INSERT INTO Weather (city, date, temperature, humidity, wind_speed)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', weather)
+                to_add -= 1
+                print(f"Inserted weather for {city}")
+                time.sleep(1)  # Sleep to avoid hitting rate limits
+            except Exception as e:
+                print(f"Error for {city}: {e}")
+
+# Save and close the database
+conn.commit()
+conn.close()
