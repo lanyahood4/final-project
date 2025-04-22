@@ -72,4 +72,6 @@ plt.tight_layout()
 plt.savefig("earthquake_bar.png")
 plt.show()
 
+conn.close()
+
 
