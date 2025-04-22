@@ -23,3 +23,13 @@ avg_temps = [row[1] for row in data]
 avg_humidities = [row[2] for row in data]
 avg_aqis = [row[3] for row in data]
 
+# Graph 1: AQI bar chart
+plt.figure(figsize=(8, 5))
+plt.bar(cities, avg_aqis, color='teal')
+plt.title("Average AQI by City")
+plt.xlabel("City")
+plt.ylabel("AQI")
+plt.tight_layout()
+plt.savefig("aqi_bar_chart.png")
+plt.show()
+
