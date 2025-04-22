@@ -17,3 +17,9 @@ JOIN AirQuality
 ON Weather.city = AirQuality.city AND Weather.date = AirQuality.date
 GROUP BY Weather.city
 ''')
+data = cur.fetchall()
+cities = [row[0] for row in data]
+avg_temps = [row[1] for row in data]
+avg_humidities = [row[2] for row in data]
+avg_aqis = [row[3] for row in data]
+
