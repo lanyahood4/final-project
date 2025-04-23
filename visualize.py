@@ -1,77 +1,58 @@
-# Who is doing this one?: 
-import matplotlib.pyplot as plt
+# Who did it: LaNya & Fatou
 import sqlite3
+import matplotlib.pyplot as plt
+from collections import defaultdict
+import os
 
-conn = sqlite3.connect('final_project.db')
+# Connect to the SQLite database
+db_path = os.path.abspath("final_project.db")
+print(f"Using database: {db_path}")
+conn = sqlite3.connect(db_path)
 cur = conn.cursor()
 
-# Weather & AQI Join
-cur.execute('''
-SELECT 
-    Weather.city,
-    AVG(Weather.temperature),
-    AVG(Weather.humidity),
-    AVG(AirQuality.aqi)
-FROM Weather
-JOIN AirQuality
-ON Weather.city = AirQuality.city AND Weather.date = AirQuality.date
-GROUP BY Weather.city
-''')
-data = cur.fetchall()
-cities = [row[0] for row in data]
-avg_temps = [row[1] for row in data]
-avg_humidities = [row[2] for row in data]
-avg_aqis = [row[3] for row in data]
+# ----- WEATHER DATA VISUALIZATION -----
+print("Fetching weather data...")
 
-# Graph 1: AQI bar chart
-plt.figure(figsize=(8, 5))
-plt.bar(cities, avg_aqis, color='teal')
-plt.title("Average AQI by City")
+cur.execute("SELECT city, temperature FROM Weather")
+weather_data = cur.fetchall()
+
+weather_by_city = defaultdict(list)
+for city, temp in weather_data:
+    weather_by_city[city].append(temp)
+
+avg_temp_by_city = {
+    city: sum(temps) / len(temps)
+    for city, temps in weather_by_city.items()
+}
+
+cities = list(avg_temp_by_city.keys())
+temps = list(avg_temp_by_city.values())
+
+plt.figure(figsize=(10, 5))
+plt.bar(cities, temps)
+plt.title("Average Temperature by City (°F)")
 plt.xlabel("City")
-plt.ylabel("AQI")
+plt.ylabel("Avg Temperature")
+plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig("aqi_bar_chart.png")
 plt.show()
 
-# Graph 2: Temp vs AQI scatter
-plt.figure(figsize=(8, 5))
-plt.scatter(avg_temps, avg_aqis, color='orange')
-for i in range(len(cities)):
-    plt.annotate(cities[i], (avg_temps[i], avg_aqis[i]))
-plt.title("Temperature vs AQI")
-plt.xlabel("Avg Temperature (F)")
-plt.ylabel("Avg AQI")
-plt.tight_layout()
-plt.savefig("temp_vs_aqi.png")
-plt.show()
+# ----- EARTHQUAKE DATA VISUALIZATION -----
+print("Fetching earthquake data...")
 
-
-# Graph 3: Earthquake frequency by region
-cur.execute("SELECT place FROM Earthquakes")
+cur.execute("SELECT place, magnitude FROM Earthquakes")
 quake_data = cur.fetchall()
-region_counts = {}
 
-for place in quake_data:
-    region = place[0].split(",")[-1].strip() if "," in place[0] else place[0].split(" ")[-1]
-    if region not in region_counts:
-        region_counts[region] = 0
-    region_counts[region] += 1
+places = [place for place, _ in quake_data]
+magnitudes = [mag for _, mag in quake_data]
 
-
-# Sort and pick top 5 quake-heavy regions
-top_regions = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)[:5]
-labels = [r[0] for r in top_regions]
-values = [r[1] for r in top_regions]
-
-plt.figure(figsize=(8, 5))
-plt.bar(labels, values, color='crimson')
-plt.title("Top 5 Regions with Most Earthquakes")
-plt.xlabel("Region")
+plt.figure(figsize=(12, 6))
+plt.hist(magnitudes, bins=10, edgecolor='black')
+plt.title("Earthquake Magnitude Distribution (Past 7 Days)")
+plt.xlabel("Magnitude")
 plt.ylabel("Number of Earthquakes")
 plt.tight_layout()
-plt.savefig("earthquake_bar.png")
 plt.show()
 
+# Close the database connection
 conn.close()
-
-
