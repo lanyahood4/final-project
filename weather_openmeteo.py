@@ -41,3 +41,18 @@ CREATE TABLE IF NOT EXISTS Weather (
 )
 ''')
 conn.commit()
+
+# Step 2: Confirm table exists
+cur.execute("SELECT name FROM sqlite_master WHERE type='table';")
+tables = cur.fetchall()
+print("Tables in database now:", tables)
+
+# Step 3: Try a COUNT query to check existing rows
+try:
+    cur.execute("SELECT COUNT(*) FROM Weather")
+    count = cur.fetchone()[0]
+    print(f"Existing rows: {count}")
+except sqlite3.OperationalError as e:
+    print(f"Database error: {e}")
+    conn.close()
+    exit(1)
