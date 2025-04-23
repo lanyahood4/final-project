@@ -56,3 +56,32 @@ except sqlite3.OperationalError as e:
     print(f"Database error: {e}")
     conn.close()
     exit(1)
+# Step 4: Define function to fetch weather from Open-Meteo
+def fetch_weather(city, lat, lon):
+    url = (
+        f"https://api.open-meteo.com/v1/forecast?"
+        f"latitude={lat}&longitude={lon}&start_date={DATE}&end_date={DATE}"
+        f"&daily=temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,wind_speed_10m_max"
+        f"&timezone=America/New_York"
+    )
+    r = requests.get(url)
+    data = r.json()
+
+    if "daily" not in data or not data["daily"]["temperature_2m_max"]:
+        print(f"[DEBUG] Full response for {city}:\n{data}")
+        raise ValueError(f"{city} Open-Meteo parsing error: Missing data.")
+
+    # Calculate average temperature and convert units
+    temp_avg = (data["daily"]["temperature_2m_max"][0] + data["daily"]["temperature_2m_min"][0]) / 2
+    humidity = data["daily"]["relative_humidity_2m_mean"][0]
+    wind = data["daily"]["wind_speed_10m_max"][0]
+
+    # Convert temp from Celsius to Fahrenheit, wind from km/h to mph
+    return (
+        city,
+        DATE,
+        round(temp_avg * 9 / 5 + 32, 1),
+        humidity,
+        round(wind / 1.609, 1)
+    )
+    
