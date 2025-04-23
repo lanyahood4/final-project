@@ -1,11 +1,10 @@
 # Who did it: LaNya & Fatou
 import sqlite3
-import matplotlib.pyplot as plt
-from collections import defaultdict
-import os
+import pandas as pd
 
-# Connect to the SQLite database
-db_path = os.path.abspath("final_project.db")
-print(f"Using database: {db_path}")
-conn = sqlite3.connect(db_path)
-cur = conn.cursor()
+# Connect to the database
+conn = sqlite3.connect("final_project.db")
+
+# Read tables
+weather_df = pd.read_sql_query("SELECT * FROM Weather", conn)
+earthquake_df = pd.read_sql_query("SELECT * FROM Earthquakes", conn)
