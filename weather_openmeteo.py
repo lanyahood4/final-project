@@ -24,3 +24,20 @@ cities = {
     'New Orleans': (29.9511, -90.0715),
     'Atlanta': (33.7490, -84.3880)
 }
+# Connect to SQLite database
+conn = sqlite3.connect("final_project.db")
+cur = conn.cursor()
+
+# Step 1: Create the Weather table
+print("Creating Weather table (if not exists)...")
+cur.execute('''
+CREATE TABLE IF NOT EXISTS Weather (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    city TEXT,
+    date TEXT,
+    temperature REAL,
+    humidity INTEGER,
+    wind_speed REAL
+)
+''')
+conn.commit()
