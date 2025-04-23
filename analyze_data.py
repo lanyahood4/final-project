@@ -12,3 +12,8 @@ earthquake_df = pd.read_sql_query("SELECT * FROM Earthquakes", conn)
 weather_df['temperature'] = pd.to_numeric(weather_df['temperature'], errors='coerce')
 weather_df['humidity'] = pd.to_numeric(weather_df['humidity'], errors='coerce')
 weather_df['wind_speed'] = pd.to_numeric(weather_df['wind_speed'], errors='coerce')
+
+# Save cleaned data to CSVs for easy use in visualization
+weather_df.to_csv("cleaned_weather.csv", index=False)
+earthquake_df.to_csv("cleaned_earthquakes.csv", index=False)
+
