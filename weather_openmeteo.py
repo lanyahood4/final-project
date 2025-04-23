@@ -85,3 +85,28 @@ def fetch_weather(city, lat, lon):
         round(wind / 1.609, 1)
     )
     
+# Step 5: Insert weather data
+if count < 100:
+    to_add = 25
+    for city, (lat, lon) in cities.items():
+        for _ in range(5):
+            if to_add == 0:
+                break
+            try:
+                weather = fetch_weather(city, lat, lon)
+                cur.execute('''
+                    INSERT INTO Weather (city, date, temperature, humidity, wind_speed)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', weather)
+                to_add -= 1
+                print(f"Inserted weather for {city}")
+                time.sleep(1)
+            except ValueError as ve:
+                print(f"Error for {city}: {ve}")
+            except Exception as e:
+                print(f"Unexpected error for {city}: {e}")
+
+# Step 6: Commit and close
+conn.commit()
+conn.close()
+print("Weather data script completed successfully.")
