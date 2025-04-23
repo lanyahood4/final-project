@@ -17,3 +17,7 @@ weather_df['wind_speed'] = pd.to_numeric(weather_df['wind_speed'], errors='coerc
 weather_df.to_csv("cleaned_weather.csv", index=False)
 earthquake_df.to_csv("cleaned_earthquakes.csv", index=False)
 
+print("Cleaned data saved to CSVs.")
+conn.close()
+
+
