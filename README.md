@@ -4,12 +4,12 @@
 Analyzing how weather, air quality, and earthquake events are related across U.S. cities.
 
 ## APIs Used
-- WeatherAPI (avg temperature, humidity, wind)
+- open-meteo (avg temperature, humidity, wind)
 - IQAir API (air quality index)
 - USGS Earthquake API (location, magnitude of quakes)
 
 ## Files
-- weather_data.py – stores weather data (limit 25/run)
+- weather_openmeteo.py stores weather data (limit 25/run)
 - air_quality_data.py – stores AQI data (limit 25/run)
 - earthquake_data.py – fetches recent earthquakes
 - analyze_data.py – SQL JOINs, analysis, outputs calculated_data.txt
@@ -18,7 +18,7 @@ Analyzing how weather, air quality, and earthquake events are related across U.S
 ## How to Use
 1. Add your API keys to `weather_data.py` and `air_quality_data.py`
 2. Run:
-   - `python weather_data.py` multiple times
+   - `python weather_openmeteo.py` multiple times
    - `python air_quality_data.py` multiple times
    - `python earthquake_data.py` once
    - `python analyze_data.py` to process and output results
