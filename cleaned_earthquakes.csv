@@ -1,0 +1,535 @@
+id,magnitude,place,time
+1,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+2,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+3,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+4,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+5,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+6,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+7,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+8,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+9,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+10,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+11,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+12,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+13,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+14,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+15,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+16,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+17,5.2,north of Ascension Island,2025-04-21 07:53:12
+18,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+19,4.7,Kermadec Islands region,2025-04-21 03:20:23
+20,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+21,4.8,South Indian Ocean,2025-04-20 20:59:33
+22,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+23,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+24,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+25,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+26,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+27,4.9,South Indian Ocean,2025-04-20 05:22:03
+28,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+29,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+30,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+31,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+32,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+33,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+34,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+35,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+36,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+37,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+38,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+39,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+40,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+41,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+42,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+43,4.9,Kermadec Islands region,2025-04-18 22:03:21
+44,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+45,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+46,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+47,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+48,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+49,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+50,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+51,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+52,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+53,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+54,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+55,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+56,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+57,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+58,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+59,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+60,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+61,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+62,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+63,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+64,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+65,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+66,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+67,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+68,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+69,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+70,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+71,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+72,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+73,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+74,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+75,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+76,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+77,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+78,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+79,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+80,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+81,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+82,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+83,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+84,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+85,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+86,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+87,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+88,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+89,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
+90,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+91,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+92,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+93,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+94,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+95,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+96,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+97,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+98,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+99,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+100,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+101,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+102,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+103,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+104,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+105,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+106,5.2,north of Ascension Island,2025-04-21 07:53:12
+107,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+108,4.7,Kermadec Islands region,2025-04-21 03:20:23
+109,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+110,4.8,South Indian Ocean,2025-04-20 20:59:33
+111,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+112,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+113,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+114,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+115,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+116,4.9,South Indian Ocean,2025-04-20 05:22:03
+117,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+118,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+119,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+120,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+121,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+122,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+123,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+124,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+125,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+126,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+127,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+128,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+129,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+130,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+131,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+132,4.9,Kermadec Islands region,2025-04-18 22:03:21
+133,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+134,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+135,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+136,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+137,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+138,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+139,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+140,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+141,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+142,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+143,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+144,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+145,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+146,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+147,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+148,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+149,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+150,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+151,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+152,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+153,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+154,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+155,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+156,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+157,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+158,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+159,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+160,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+161,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+162,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+163,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+164,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+165,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+166,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+167,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+168,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+169,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+170,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+171,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+172,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+173,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+174,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+175,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+176,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+177,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+178,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
+179,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+180,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+181,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+182,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+183,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+184,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+185,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+186,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+187,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+188,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+189,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+190,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+191,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+192,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+193,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+194,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+195,5.2,north of Ascension Island,2025-04-21 07:53:12
+196,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+197,4.7,Kermadec Islands region,2025-04-21 03:20:23
+198,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+199,4.8,South Indian Ocean,2025-04-20 20:59:33
+200,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+201,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+202,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+203,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+204,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+205,4.9,South Indian Ocean,2025-04-20 05:22:03
+206,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+207,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+208,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+209,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+210,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+211,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+212,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+213,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+214,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+215,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+216,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+217,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+218,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+219,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+220,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+221,4.9,Kermadec Islands region,2025-04-18 22:03:21
+222,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+223,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+224,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+225,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+226,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+227,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+228,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+229,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+230,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+231,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+232,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+233,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+234,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+235,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+236,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+237,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+238,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+239,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+240,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+241,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+242,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+243,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+244,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+245,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+246,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+247,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+248,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+249,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+250,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+251,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+252,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+253,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+254,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+255,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+256,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+257,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+258,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+259,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+260,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+261,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+262,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+263,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+264,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+265,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+266,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+267,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
+268,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+269,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+270,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+271,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+272,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+273,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+274,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+275,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+276,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+277,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+278,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+279,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+280,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+281,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+282,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+283,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+284,5.2,north of Ascension Island,2025-04-21 07:53:12
+285,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+286,4.7,Kermadec Islands region,2025-04-21 03:20:23
+287,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+288,4.8,South Indian Ocean,2025-04-20 20:59:33
+289,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+290,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+291,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+292,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+293,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+294,4.9,South Indian Ocean,2025-04-20 05:22:03
+295,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+296,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+297,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+298,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+299,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+300,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+301,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+302,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+303,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+304,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+305,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+306,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+307,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+308,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+309,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+310,4.9,Kermadec Islands region,2025-04-18 22:03:21
+311,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+312,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+313,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+314,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+315,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+316,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+317,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+318,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+319,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+320,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+321,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+322,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+323,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+324,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+325,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+326,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+327,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+328,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+329,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+330,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+331,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+332,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+333,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+334,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+335,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+336,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+337,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+338,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+339,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+340,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+341,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+342,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+343,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+344,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+345,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+346,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+347,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+348,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+349,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+350,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+351,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+352,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+353,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+354,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+355,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+356,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
+357,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+358,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+359,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+360,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+361,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+362,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+363,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+364,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+365,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+366,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+367,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+368,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+369,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+370,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+371,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+372,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+373,5.2,north of Ascension Island,2025-04-21 07:53:12
+374,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+375,4.7,Kermadec Islands region,2025-04-21 03:20:23
+376,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+377,4.8,South Indian Ocean,2025-04-20 20:59:33
+378,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+379,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+380,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+381,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+382,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+383,4.9,South Indian Ocean,2025-04-20 05:22:03
+384,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+385,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+386,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+387,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+388,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+389,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+390,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+391,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+392,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+393,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+394,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+395,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+396,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+397,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+398,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+399,4.9,Kermadec Islands region,2025-04-18 22:03:21
+400,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+401,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+402,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+403,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+404,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+405,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+406,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+407,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+408,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+409,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+410,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+411,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+412,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+413,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+414,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+415,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+416,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+417,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+418,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+419,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+420,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+421,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+422,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+423,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+424,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+425,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+426,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+427,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+428,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+429,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+430,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+431,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+432,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+433,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+434,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+435,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+436,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+437,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+438,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+439,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+440,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+441,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+442,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+443,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+444,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+445,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
+446,5.1,"121 km SE of Pangai, Tonga",2025-04-22 20:37:35
+447,5.7,"95 km NNW of Sola, Vanuatu",2025-04-22 16:55:33
+448,5.1,"31 km SW of Singleton, Australia",2025-04-22 16:55:03
+449,4.9,"122 km ESE of Fangale’ounga, Tonga",2025-04-22 14:49:35
+450,5.7,"135 km N of Lae, Papua New Guinea",2025-04-22 13:29:11
+451,6.2,"269 km SE of Pondaguitan, Philippines",2025-04-22 10:17:13
+452,4.9,"157 km WSW of Fakfak, Indonesia",2025-04-22 10:15:54
+453,5.7,"141 km SSW of Banjar, Indonesia",2025-04-22 10:14:02
+454,4.5,"153 km WSW of Fakfak, Indonesia",2025-04-22 07:14:41
+455,4.5,"104 km E of Copiapó, Chile",2025-04-22 05:54:04
+456,4.8,"52 km NNW of Yurimaguas, Peru",2025-04-21 22:23:17
+457,4.7,"60 km E of Modisi, Indonesia",2025-04-21 21:28:01
+458,4.5,"14 km SSE of Bangui, Philippines",2025-04-21 17:46:34
+459,4.5,"54 km ENE of Tomioka, Japan",2025-04-21 16:48:06
+460,5.1,South Sandwich Islands region,2025-04-21 15:46:59
+461,4.5,"2 km N of Kasukabe, Japan",2025-04-21 13:11:19
+462,5.2,north of Ascension Island,2025-04-21 07:53:12
+463,4.5,"27 km SE of Lukatan, Philippines",2025-04-21 05:56:41
+464,4.7,Kermadec Islands region,2025-04-21 03:20:23
+465,4.7,"171 km NE of Nagqu, China",2025-04-21 01:07:51
+466,4.8,South Indian Ocean,2025-04-20 20:59:33
+467,4.8,"157 km WSW of Merizo Village, Guam",2025-04-20 20:33:32
+468,5.4,"152 km WSW of Fakfak, Indonesia",2025-04-20 18:19:50
+469,4.9,"35 km WNW of Port-Vila, Vanuatu",2025-04-20 17:45:59
+470,4.6,"73 km WNW of Sola, Vanuatu",2025-04-20 15:15:05
+471,4.5,"8 km NE of Kisarazu, Japan",2025-04-20 06:11:07
+472,4.9,South Indian Ocean,2025-04-20 05:22:03
+473,4.8,"74 km E of Tobelo, Indonesia",2025-04-19 23:06:41
+474,5.3,"38 km SW of Malisbeng, Philippines",2025-04-19 17:37:13
+475,5.5,"92 km NNE of Hihifo, Tonga",2025-04-19 16:55:04
+476,5.1,"37 km SSW of Malisbeng, Philippines",2025-04-19 16:50:51
+477,5.9,"39 km SW of Malisbeng, Philippines",2025-04-19 16:11:14
+478,5.6,central Mid-Atlantic Ridge,2025-04-19 13:50:22
+479,4.9,southern Mid-Atlantic Ridge,2025-04-19 12:43:43
+480,4.8,west of the Galapagos Islands,2025-04-19 12:42:23
+481,4.5,"160 km W of Neiafu, Tonga",2025-04-19 12:38:04
+482,5.2,"23 km SW of Tingo María, Peru",2025-04-19 11:56:15
+483,5.7,"63 km SSW of Ashkāsham, Afghanistan",2025-04-19 06:47:55
+484,4.6,"88 km SW of Atocha, Bolivia",2025-04-19 04:51:56
+485,4.8,central Mid-Atlantic Ridge,2025-04-19 03:14:44
+486,4.6,"101 km E of Gualaquiza, Ecuador",2025-04-19 02:20:16
+487,4.5,"Kermadec Islands, New Zealand",2025-04-19 01:15:05
+488,4.9,Kermadec Islands region,2025-04-18 22:03:21
+489,4.5,"85 km SSW of Hengchun, Taiwan",2025-04-18 19:51:18
+490,4.9,"198 km ESE of Kimbe, Papua New Guinea",2025-04-18 19:42:15
+491,4.6,"16 km WSW of San Nicolás, Mexico",2025-04-18 19:18:23
+492,5.4,"155 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:41:43
+493,4.8,"142 km SE of Ust’-Kamchatsk Staryy, Russia",2025-04-18 18:40:01
+494,4.6,"23 km W of Codrington, Antigua and Barbuda",2025-04-18 17:31:23
+495,4.5,"137 km ENE of Angoram, Papua New Guinea",2025-04-18 15:49:02
+496,4.9,"103 km W of Hihifo, Tonga",2025-04-18 14:26:55
+497,4.5,"97 km SE of Lata, Solomon Islands",2025-04-18 12:35:08
+498,5.2,"1 km ENE of Ōmachi, Japan",2025-04-18 11:19:28
+499,5.2,"10 km NNE of Jordán, Colombia",2025-04-18 10:31:41
+500,4.8,"5 km SSW of Jordán, Colombia",2025-04-18 08:48:42
+501,4.9,"157 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:58:42
+502,4.7,"172 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:33:31
+503,5.1,"181 km ESE of Kimbe, Papua New Guinea",2025-04-18 07:24:13
+504,4.7,"60 km NNW of Las Ovejas, Argentina",2025-04-18 03:59:38
+505,4.7,"292 km ENE of Lospalos, Timor Leste",2025-04-18 03:44:07
+506,4.5,"27 km NNE of Finschhafen, Papua New Guinea",2025-04-18 02:57:49
+507,4.5,"156 km SSW of Muncar, Indonesia",2025-04-18 02:13:07
+508,5.6,"65 km S of San Pedro de Atacama, Chile",2025-04-18 00:10:18
+509,4.8,"164 km ESE of Kimbe, Papua New Guinea",2025-04-18 00:01:58
+510,4.6,Reykjanes Ridge,2025-04-17 19:31:17
+511,4.7,Southwest Indian Ridge,2025-04-17 17:15:33
+512,4.7,"213 km ESE of Kimbe, Papua New Guinea",2025-04-17 16:01:15
+513,5.2,west of the Galapagos Islands,2025-04-17 09:45:31
+514,4.9,"21 km SW of Lospalos, Timor Leste",2025-04-17 07:26:41
+515,4.5,"14 km N of Mandalay, Burma (Myanmar)",2025-04-17 06:32:34
+516,5.2,"269 km SSE of Nusa Dua, Indonesia",2025-04-17 04:34:16
+517,4.9,"146 km SSE of Hihifo, Tonga",2025-04-17 01:14:29
+518,5.6,"46 km ESE of Modisi, Indonesia",2025-04-17 00:51:23
+519,4.7,"162 km ESE of Kimbe, Papua New Guinea",2025-04-17 00:12:42
+520,4.5,"258 km WNW of Houma, Tonga",2025-04-16 21:23:58
+521,4.7,south of the Kermadec Islands,2025-04-16 20:08:17
+522,4.6,"11 km SE of Labuha, Indonesia",2025-04-16 18:57:51
+523,4.9,"249 km NNE of Fais, Micronesia",2025-04-16 18:14:00
+524,5.4,south of the Kermadec Islands,2025-04-16 17:44:40
+525,5.3,south of the Kermadec Islands,2025-04-16 17:35:25
+526,4.5,"37 km NE of Pototano, Indonesia",2025-04-16 14:07:09
+527,5.6,southern Mid-Atlantic Ridge,2025-04-16 12:41:01
+528,5.0,"135 km E of Neiafu, Tonga",2025-04-16 07:30:18
+529,4.7,"99 km SSE of Pondaguitan, Philippines",2025-04-16 05:22:26
+530,5.2,"146 km SW of Adak, Alaska",2025-04-16 03:49:49
+531,5.2,southeast Indian Ridge,2025-04-16 02:25:57
+532,6.6,southeast Indian Ridge,2025-04-16 01:42:59
+533,4.7,"37 km SSE of Palizzi Marina, Italy",2025-04-16 01:26:09
+534,4.5,west of the Galapagos Islands,2025-04-16 00:29:20
